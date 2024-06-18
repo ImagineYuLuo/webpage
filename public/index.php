@@ -1,12 +1,7 @@
 <?php
 
-/**
- * Check session exist and make the route
- */
+require_once '../app/core/App.php';
+require_once '../app/core/Controller.php';
+require_once '../app/core/Router.php';
 
-session_start();
-
-if (!isset($_SESSION['user_id'])) {
-    header('Location: ../app/login/login.html');
-    exit();
-}
+$app = new App();
