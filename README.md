@@ -1,42 +1,54 @@
-# Code Learning Website
+# 程式自學系統
 
 ## 簡述 (Description)
 ****
 
-**Code Learning Website** 是採用 PHP 非 MVC 框架所開發之程式自學系統。
+**程式自學系統** 是採用 PHP 所開發 MVC 系統。
 
 **Requirements:**
-* **PHP version 7.4.0+**
+* **PHP version 5.6.0+**
 
 ## 目錄說明 (Catalog)
 ****
 ```
-project /
+webpage /
 │
 ├── app /
-│   ├── login
-│   │   ├── css /
-│   │   ├── js /
-│   │   └── login.html
-│   └── ...
-│
+│   ├── controllers /
+│   │   ├── LoginController.php
+│   │   ├── HomeController.php
+│   │   └── ...
+│   ├── core /
+│   │   ├── App.php
+│   │   ├── Controller.php
+│   │   └── Router.php
+│   ├── models /
+│   │   ├── User.php
+│   │   └── ...
+│   └── views /
+│       ├── login /
+│       ├── home /
+│       └── ...   
+│    
 ├── libs /
 │   ├── bootstrap /
 │   ├── ide /
 │   │   └── ace.js   <-- IDE 檔案
+│   ├── utils /
 │   └── jquery.min.js   <-- jQuery 檔案
 │
-├── public/
-│   └── index.php <-- 程式進入點 (Make Route)
-└──
-01/05/2024 Update
+└── public/
+    ├── css /
+    ├── js /
+    ├── .htaccess
+    └── index.php <-- 程式進入點 (Make Route)
+
+18/06/2024 Update
 ```
 
 ## 開發整合環境 (IDE)
 ****
 採用 **Ace Editor** 來打造線上編輯器之功能。
-
-![image](https://cdn.discordapp.com/attachments/1084656258579169302/1235071391808622644/image.png?ex=6633095e&is=6631b7de&hm=204bf586f3ab356723cfedb3d3afd0df15ab5dab1df792b422fdc16a82421ecc&)
 
 ## 資源 (Resource)
 ****
