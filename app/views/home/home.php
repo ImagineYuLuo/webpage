@@ -22,8 +22,17 @@
 </header>
 
 <div class="explore-card">
-    <div class="card-title"></div>
-    <div class="card-content"></div>
+    <div class="card-title">
+        <p class="type-difficult">a</p>
+        <div class="card-group">
+            <p>Total: 5</p>
+            <button class="btn-next">Choose</button>
+        </div>
+
+    </div>
+    <div class="card-content">
+        <p>Finish: 100%</p>
+    </div>
 </div>
 
 <script src="../public/js/home.js"></script>
