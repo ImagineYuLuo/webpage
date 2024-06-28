@@ -15,7 +15,6 @@ class HomeController extends Controller
 
     private function showHomePage($data)
     {
-        extract($data);
-        require_once '../app/views/home/home.php';
+        $this->view("home/home", $data);
     }
 }
