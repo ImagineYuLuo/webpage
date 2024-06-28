@@ -1,0 +1,126 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    background-color: #282c34;
+    margin-top: 80px;
+    color: white;
+    user-select: none;
+}
+
+.explore-container {
+    align-items: center;
+    margin: 10px;
+}
+
+.explore-title {
+    color: white;
+    font-size: 32px;
+    text-align: left;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.showcase {
+    padding-top: 20px;
+}
+
+.small-title {
+    color: white;
+    font-size: 32px;
+    text-align: left;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.card-container {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.explore-card {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 20px;
+}
+
+.card-title-easy {
+    height: 70%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #58f1a5;
+    text-align: right;
+    padding-top: 10px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.card-title-normal {
+    height: 70%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #f19d58;
+    text-align: right;
+    padding-top: 10px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.card-title-hard {
+    height: 70%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #f15858;
+    text-align: right;
+    padding-top: 10px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.card-content {
+    padding-top: 34px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.card-content p {
+    text-align: left;
+}
+
+.type-difficult {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.card-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 10px 20px;
+}
+
+.p-total {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn-next {
+    width: 100%;
+    height: 36px;
+    background-color: #969696;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-next:hover {
+    background-color: #646464;
+    border-color: #646464;
+}
