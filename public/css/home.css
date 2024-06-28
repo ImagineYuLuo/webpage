@@ -4,95 +4,77 @@ body {
     margin-top: 80px;
 }
 
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: transparent;
+.total-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    backdrop-filter: blur(5px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    margin: 120px 120px 60px 120px;
+    min-width: 1000px;
 }
 
-.welcome {
-    cursor: default;
-    font-size: 18px;
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    padding-left: 30px;
+.left-side {
+    margin-right: 30px;
+    min-width: 600px;
 }
 
-.navbar {
-    user-select: none;
-    padding-right: 80px;
-}
-
-.navbar a {
-    position: relative;
-    font-size: 18px;
-    color: white;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 40px;
-}
-
-.navbar a::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: white;
-    transition: .3s;
-}
-
-.navbar a:hover::before {
-    width: 100%;
-}
-
-.explore-card {
-    width: 200px;
+.board-container {
     height: 200px;
-    border-radius: 20px;
-    background-color: white;
-}
-
-.card-title {
-    height: 70%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    background-color: #6edff6;
-    text-align: right;
-}
-
-.type-difficult {
-    font-size: 24px;
-    font-weight: 500;
-    padding: 10px;
     text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
-.card-group {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
+.tab {
+    overflow: hidden;
+    border-bottom: 2px solid white;
 }
 
-.btn-next {
-    width: 80px;
-    height: 30px;
-    border-style: none;
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: #ffffff;
+    font-weight: 500;
 }
 
-.card-content {
-    height: 30%;
-    border-radius: 20px;
+.tab button:hover {
+    color: #ffffff;
+}
+
+.tab button.active {
+    color: #78affa;
+}
+
+.tab-content {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.base-content {
+    height: 300px;
+    text-align: center;
+    border: white 2px solid;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.right-side {
+    min-width: 300px;
+}
+
+.side-bar {
+    height: 550px;
+    text-align: center;
+    border: white 2px solid;
+    margin-left: 30px;
+    border-radius: 10px;
 }
