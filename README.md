@@ -29,7 +29,11 @@ webpage /
 │       ├── login /
 │       ├── home /
 │       └── ...   
-│    
+│
+├── config /
+│   ├── Database.php
+│   └── ...
+│   
 ├── libs /
 │   ├── bootstrap /
 │   ├── ide /
@@ -43,7 +47,7 @@ webpage /
     ├── .htaccess
     └── index.php <-- 程式進入點 (Make Route)
 
-18/06/2024 Update
+26/06/2024 Update
 ```
 
 ## 開發整合環境 (IDE)
