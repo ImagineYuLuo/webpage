@@ -6,7 +6,7 @@
 **程式自學系統** 是採用 PHP 所開發 MVC 系統。
 
 **Requirements:**
-* **PHP version 5.6.0+**
+* **PHP version 8.0.0+**
 
 ## 目錄說明 (Catalog)
 ****
